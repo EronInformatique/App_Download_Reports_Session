@@ -44,5 +44,5 @@
     ```
 7. Enfin il faut créer une signature sur le fichier dmg pour pouvoir installer sans alerte de sécurité sur les ordinateurs : 
     ```sh
-    codesign --sign "Andria Capai" --force --keychain ~/Library/Keychains/pathxxx /path/to/App_download_rapport_Chr.app       
+    codesign --sign "Identifiant" --force --keychain ~/Library/Keychains/pathxxx /path/to/App_download_rapport_Chr.app       
     ```
